@@ -5,7 +5,7 @@
     padding-bottom: 20px;
 }
 
-.card {
+.card-container .card {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
@@ -14,20 +14,20 @@
     transition: transform 0.3s ease;
 }
 
-.card:hover {
+.card-container .card:hover {
     transform: scale(1.02);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border: 2px solid black;
 }
 
-.card-content {
+.card-container .card-content {
     padding: 15px;
     text-align: center;
     background-color: white;
     border-top: 1px solid #ddd;
 }
 
-.card-content h3 {
+.card-container .card-content h3 {
     margin: 0;
     color: #333;
     font-size: 1.2rem;
@@ -37,13 +37,13 @@
     white-space: nowrap;
 }
 
-.price {
+.card-container .price {
     font-size: 18px;
     color: #333;
     margin: 0px;
 }
 
-.card img {
+.card-container .card img {
     width: 100%;
     height: auto;
     max-height: 200px;
