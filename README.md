@@ -1,9 +1,9 @@
 # ECE9065_Assignment_1
 
-Name: Vigneshwaren Sunder (Vinn)
+Name: Vigneshwaren Sunder (Vinn) \
 Student Number: 25142397
 
-About the Project:
+## About the Project:
 - Creation of basic HTML and CSS project showcasing laptops and accessories ecommerce shop. The site has following features:
     - Responsive Designs
     - Special Sale Badge and line through text decorations for items on sale
@@ -11,7 +11,7 @@ About the Project:
     - Main image and 3 image gallery on product-page
     - Fancy buy-now button with hovering effect
 
-Folder Structure:
+## Folder Structure:
 ```
 > tree
 ├───assets
@@ -23,6 +23,8 @@ Folder Structure:
 ```
 
 ## Follow the given steps to navigate through this project.
+
+Base Dev Repo where I was making commits: https://github.com/vws-codes/ECE9065_Assignment_1
 
 ##### Kindly read the given readme to understand about my commit history and messages. I was pushing to a different repository and was unaware of github classrooms. I was able to merge with proper commit history to this repo. However I am not sure if you could see my prev repo prs. So i added screenshots here
 
