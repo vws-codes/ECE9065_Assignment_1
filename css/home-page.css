@@ -120,6 +120,26 @@ main {
 .card-container .buy-now-button:hover {
     background-color: orange;
 }
+
+/* Position the arrows over the image */
+.image-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    font-size: 2rem;
+    color: rgb(102, 95, 95);
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
 /* Media Queries for Responsiveness */
 @media (max-width: 1284px) {
     .card-container {

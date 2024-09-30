@@ -9,7 +9,7 @@
     flex-basis: 40%;
     padding-right: 20px;
     padding-left: 10px;
-    padding-top: 20px
+    padding-top: 20px;
 }
 
 .product-page .product-images img {
@@ -116,54 +116,63 @@
 }
 
 
-/* on image nav arrows */
-.product-page .image-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2rem;
-    color: #000000;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 5px 10px;
-    border-radius: 50%;
-    user-select: none;
-}
-
-#prev {
-    left: 10px;
-}
-
-#next {
-    right: 23px;
-}
-
 /* Media Queries for Responsive Design */
-@media (max-width: 768px) {
-    header {
-      flex-direction: column; 
-      min-width: auto;
-    }
-  
+
+
+@media (max-width: 777px) {
     .product-page {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
-    .product-page .product-images, .product-page .product-details {
-      flex-basis: 100%;
-      padding-right: 0;
+
+    .product-page .product-images, 
+    .product-page .product-details {
+        flex-basis: 100%;
+        padding-right: 0;
+        padding-left: 0;
     }
-  
+
     .product-page .product-images img {
-      margin-bottom: 15px;
-      max-width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
     }
-  
+
     .product-page .image-gallery {
-      justify-content: center;
+        justify-content: center;
     }
-  
-    .product-page .image-nav {
-      font-size: 1.5rem;
+
+    .product-page .image-gallery img {
+        width: 30%; /* Reduce image size for smaller screens */
     }
-  }
+
+}
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) and (min-width: 500px) {
+    .product-page .product-images img {
+        max-width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .product-page .image-gallery img {
+        max-width: 50%;
+        height: auto;
+        margin: 0 auto;
+        ;
+    }
+
+    .product-page .product-images {
+        padding: 0 10px;
+    }
+
+    .product-page .product-details {
+        flex-basis: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .product-page .product-images img {
+        max-width: 100%;
+        height: auto;
+    }
+}
