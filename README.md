@@ -5,7 +5,7 @@ Student Number: 25142397
 
 ## About the Project:
 - Creation of basic HTML and CSS project showcasing laptops and accessories ecommerce shop. The site has following features:
-    - Responsive Designs
+    - Responsive Designs using media queries
     - Special Sale Badge and line through text decorations for items on sale
     - Special arrow button on either side of the item image on home-page. this does not work without js
     - Main image and 3 image gallery on product-page
@@ -60,3 +60,4 @@ Base Dev Repo where I was making commits: https://github.com/vws-codes/ECE9065_A
 - We had to hard code header and footer for each page. Using js script we can maintain header.html and footer.html and import them effectively.
 - Introduce JS to make the gallery on product-page to be more responsive and clickable.
 - I made the accessories page quite simple with just price and a buy-button by intention.
+- Make use of fancy frontend frameworks like [tailwind-css](https://tailwindcss.com/), [aceternity-ui](https://ui.aceternity.com/) with better fonts
