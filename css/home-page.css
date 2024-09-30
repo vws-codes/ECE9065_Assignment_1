@@ -1,0 +1,81 @@
+main {
+    padding: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.card-container .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    overflow:hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-container .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+}
+
+.card-container .card-content {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.card-container .card-content h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2rem;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-container .price {
+    font-size: 18px;
+    color: #333;
+    margin: 0px;
+}
+
+.card-container .card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    display: block;
+}
+
+
+.card-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 992px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
