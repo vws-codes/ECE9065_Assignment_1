@@ -12,6 +12,7 @@ About the Project:
     - Fancy buy-now button with hovering effect
 
 Folder Structure:
+```
 > tree
 ├───assets
 │   └───images
@@ -19,30 +20,30 @@ Folder Structure:
 │       ├───products
 │       └───screenshots
 └───css
-
+```
 
 ## Follow the given steps to navigate through this project.
 
 ##### Kindly read the given readme to understand about my commit history and messages. I was pushing to a different repository and was unaware of github classrooms. I was able to merge with proper commit history to this repo. However I am not sure if you could see my prev repo prs. So i added screenshots here
 
 - created different branches with valid version names
-![branches](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/assets/images/screenshots/branches.png)
+![branches](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/branches.png)
 
 - created various pull requests
-![prs](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/assets/images/screenshots/pullrequests.png)
+![prs](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/pullrequests.png)
 
 - PR # 1
-![pr1](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/assets/images/screenshots/pr1.png)
+![pr1](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/pr1.png)
 
 - PR # 2
-![pr2](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/assets/images/screenshots/pr2.png)
+![pr2](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/pr2.png)
 
 - PR # 3
-![pr3](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/assets/images/screenshots/pr3.png)
+![pr3](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/pr3.png)
 
 - PR # 4
-![pr4](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/assets/images/screenshots/pr4.png)
+![pr4](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/pr4.png)
 
 - PR # 5
-![pr5](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/assets/images/screenshots/pr5.png)
+![pr5](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/pr5.png)
 
