@@ -120,15 +120,14 @@ main {
 .card-container .buy-now-button:hover {
     background-color: orange;
 }
-
 /* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
+@media (max-width: 1284px) {
     .card-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .card-container {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
@@ -137,5 +136,12 @@ main {
 @media (max-width: 768px) {
     .card-container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-container .sold-by {
+        max-width: 80%; /* Reduce width to prevent overlap */
+        font-size: 0.75em; /* Even smaller font size */
     }
 }
