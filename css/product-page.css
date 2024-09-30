@@ -53,6 +53,17 @@
     color: #B12704;
 }
 
+.product-page .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.product-page .new-price {
+    color: #B12704;
+    font-weight: bold;
+}
+
 .product-page .description {
     margin-bottom: 20px;
 }
@@ -85,15 +96,8 @@
     background-color: orange;
 }
 
-.product-page .original-price {
-    text-decoration: line-through;
-    color: #999;
-    margin-right: 10px;
-}
-
-.product-page .new-price {
-    color: #B12704;
-    font-weight: bold;
+.product-page .sold-by {
+    font-style: italic;
 }
 
 .product-page .title-container {

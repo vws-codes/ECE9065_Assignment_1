@@ -7,6 +7,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .card-container .card {
@@ -14,8 +15,11 @@ main {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    overflow:hidden;
+    overflow: hidden;
     transition: transform 0.3s ease;
+    position: relative;
+    justify-content: space-between;
+    height: 300px;
 }
 
 .card-container .card:hover {
@@ -44,7 +48,7 @@ main {
 .card-container .price {
     font-size: 18px;
     color: #333;
-    margin: 0px;
+    margin: -15px;
 }
 
 .card-container .original-price {
@@ -81,6 +85,40 @@ main {
 .card-container a {
     text-decoration: none;
     color: inherit;
+}
+
+.card-container .sold-by {
+    position: absolute;
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgb(69, 69, 69);
+    max-width: 220px;
+    left: 1px;
+    bottom: -13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-align: left;
+}
+
+.card-container .buy-now-button {
+    position: absolute;
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 18px;
+    text-wrap: nowrap;
+    margin-left: calc(100% - 85px);
+    right: 1px;
+}
+
+.card-container .buy-now-button:hover {
+    background-color: orange;
 }
 
 /* Media Queries for Responsiveness */
