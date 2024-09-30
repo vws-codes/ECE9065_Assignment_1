@@ -10,6 +10,7 @@ Student Number: 25142397
     - Special arrow button on either side of the item image on home-page. this does not work without js
     - Main image and 3 image gallery on product-page
     - Fancy buy-now button with hovering effect
+    - Better folder structure to prevent easy navigation to desired codes and prevent duplicating some commonly used styles across pages
 
 ## Folder Structure:
 ```
@@ -21,6 +22,10 @@ Student Number: 25142397
 │       └───screenshots
 └───css
 ```
+
+I created separate css files for each component/page kinda structure. And each style will start with that parent component/element name thereby making the dev
+easier to navigate to the right css files and make their changes. This also makes sure that the devs will not be maintaining any two duplicate css styles for any
+given element
 
 ## Follow the given steps to navigate through this project.
 
@@ -49,3 +54,9 @@ Base Dev Repo where I was making commits: https://github.com/vws-codes/ECE9065_A
 - PR # 5
 ![pr5](https://github.com/ECE9065-2024-UWO/ece9065-24-lab1-assignment-vws-codes/blob/main/assets/images/screenshots/pr5.png)
 
+
+## Future Scopes:
+- We created each html file for each product. We can just maintain one html file like product-page.html and dynamically load the product info from data.js using inline js scripts. Which means we only have index.html, product-page.html and about.html.
+- We had to hard code header and footer for each page. Using js script we can maintain header.html and footer.html and import them effectively.
+- Introduce JS to make the gallery on product-page to be more responsive and clickable.
+- I made the accessories page quite simple with just price and a buy-button by intention.
