@@ -107,3 +107,33 @@
 #next {
     right: 23px;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+      flex-direction: column; 
+      min-width: auto;
+    }
+  
+    .product-page {
+      flex-direction: column;
+    }
+  
+    .product-page .product-images, .product-page .product-details {
+      flex-basis: 100%;
+      padding-right: 0;
+    }
+  
+    .product-page .product-images img {
+      margin-bottom: 15px;
+      max-width: 100%;
+    }
+  
+    .product-page .image-gallery {
+      justify-content: center;
+    }
+  
+    .product-page .image-nav {
+      font-size: 1.5rem;
+    }
+  }
