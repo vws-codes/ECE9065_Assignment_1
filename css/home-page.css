@@ -47,6 +47,28 @@ main {
     margin: 0px;
 }
 
+.card-container .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.card-container .new-price {
+    color: #B12704;
+    font-weight: bold;
+}
+
+.card-container .sale-badge {
+    position: absolute;
+    background-color:  #ff4500;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 1;
+}
+
 .card-container .card img {
     width: 100%;
     height: auto;

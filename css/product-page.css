@@ -85,6 +85,32 @@
     background-color: orange;
 }
 
+.product-page .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.product-page .new-price {
+    color: #B12704;
+    font-weight: bold;
+}
+
+.product-page .title-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-page .sale-badge {
+    background-color: #ff4500;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
 
 /* on image nav arrows */
 .product-page .image-nav {
